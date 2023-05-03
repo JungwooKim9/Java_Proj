@@ -4,7 +4,7 @@ package hi.org;
 
 public class ConsoleOutput {
 	public static void main(String[] args) {
-		// mainn 메소드 블락에서 프로그램 작성
+		// main 메소드 블락에서 프로그램 작성
 		
 		// 1. System.out.println();
 		
