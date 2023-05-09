@@ -73,7 +73,9 @@ public class Ex02 {
 			
 			System.out.println("3번 항목을 출력 했습니다.");
 		}
-		
+
+		// CODE REVIEW: 공통된 코드 제거(n번 항목을 출력 했습니다.)
+		System.out.println(select + "번 항목을 출력 했습니다.");
 		
 		// 스캐너 종료: 사용 후 메모리에서 제거
 		sc.close();

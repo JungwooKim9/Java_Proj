@@ -27,18 +27,18 @@ public class Ex02 {
 		month = sc.nextInt();
 		
 		switch (month) {
-		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-			// day = 31;
-			day += 1;		// day = day + 1;
-			System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
-			break;
-		case 2:
-			day -= 2;		// day = day -2;
-			System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
-			break;
-		default:
-			System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
-			break;
+			case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+				// day = 31;
+				day += 1;		// day = day + 1;
+				System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
+				break;
+			case 2:
+				day -= 2;		// day = day -2;
+				System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
+				break;
+			default:
+				System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n", month, day);
+				break;
 		}
 		
 		

@@ -26,7 +26,6 @@ public class Ex02_1 {
 			System.out.println(i + "단");
 			
 			for(int j=1; j<10; j++) {	// 각 단에서 * 1 ~ 9
-				
 				System.out.print(i + " * " + j + " = " + i * j + "\t");
 			}
 			System.out.println();
@@ -39,7 +38,6 @@ public class Ex02_1 {
 			System.out.println(i + "단");
 			
 			for(int j=1; j<10; j++) {
-				
 				System.out.printf("%d * %d = %d \t", i, j, i * j);
 			}
 			System.out.print("\n\n");
