@@ -25,9 +25,7 @@ public class Ex02 {
 			System.out.println(i + "단");
 			
 			for(j=1; j<10; j++) {
-				
 				System.out.print(i + " * " + j + " = " + i * j + "\t");
-				
 			}
 			
 			System.out.println();

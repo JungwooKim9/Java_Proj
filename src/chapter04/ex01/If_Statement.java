@@ -61,7 +61,7 @@ public class If_Statement {
 			System.out.println("D 학점 입니다.");
 		} else {
 			System.out.println("F 학점 입니다.");
-			}
+		}
 		
 		System.out.println("===조건의 순서를 바꿀 경우 원치 않는 내용이 출력될 수 있다===");
 		
@@ -75,9 +75,9 @@ public class If_Statement {
 		} else if (val3 > 90) {
 			System.out.println("A 학점 입니다.");
 		} else {
-				// 위의 조건이 모두 만족하지 않을 때, switch문의 default
+			// 위의 조건이 모두 만족하지 않을 때, switch문의 default
 			System.out.println("F 학점 입니다.");
-					}
+		}
 	
 		System.out.println("===조건을 부여할 때 세밀하게 적용해야할 필요도 있다.===");
 		
@@ -91,9 +91,9 @@ public class If_Statement {
 		} else if (val4 >= 90 && val4 <= 100) {	// True && True ===> True
 			System.out.println("A 학점 입니다.");
 		} else {
-				// 위의 조건이 모두 만족하지 않을 때, switch문의 default
+			// 위의 조건이 모두 만족하지 않을 때, switch문의 default
 			System.out.println("F 학점 입니다.");
-					}
+		}
 		
 	}
 

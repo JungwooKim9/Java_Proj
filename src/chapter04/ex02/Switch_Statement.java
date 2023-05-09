@@ -14,16 +14,16 @@ public class Switch_Statement {
 		int val1 = 2;
 		
 		switch(val1) {				// 
-		case 1:
-			System.out.println("A");
-		case 2:
-			System.out.println("B");
-		case 3:
-			System.out.println("C");
-		case 4:
-			System.out.println("D");
-		default:
-			System.out.println("F");	// case에 값이 존재하지 않는 경우, if else if문의 else와 같다.
+			case 1:
+				System.out.println("A");
+			case 2:
+				System.out.println("B");
+			case 3:
+				System.out.println("C");
+			case 4:
+				System.out.println("D");
+			default:
+				System.out.println("F");	// case에 값이 존재하지 않는 경우, if else if문의 else와 같다.
 		}
 		
 		System.out.println("==========================");
@@ -31,21 +31,21 @@ public class Switch_Statement {
 		// 2. switch문에서 break;를 사용하는 경우
 		int val2 = 4;
 		switch (val2) {
-		case 1:
-			System.out.println("A");			
-			break;
-		case 2:
-			System.out.println("B");			
-			break;
-		case 3:
-			System.out.println("C");			
-			break;
-		case 4:
-			System.out.println("D");			
-			break;
-		default:
-			System.out.println("F");		// case에 존재하지 않으면 default의 내용이 출력됨
-			break;							// default에서는 break;를 사용하지 않아도 됨
+			case 1:
+				System.out.println("A");
+				break;
+			case 2:
+				System.out.println("B");
+				break;
+			case 3:
+				System.out.println("C");
+				break;
+			case 4:
+				System.out.println("D");
+				break;
+			default:
+				System.out.println("F");		// case에 존재하지 않으면 default의 내용이 출력됨
+				break;							// default에서는 break;를 사용하지 않아도 됨
 		}
 
 		// switch문은 if else if문으로 변환됨

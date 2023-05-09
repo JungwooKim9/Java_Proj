@@ -15,9 +15,7 @@ public class For_Statement {
 		// 1. For문의 기초 : i = 0 값을 할당함,	i 변수는 for 블락에서 선언했기 때문에 for문이 끝나면 소멸(지역 변수)
 			// 0 ~ 9까지 1씩 증가하면서 i 변수의 값을 출력
 		for (int i = 0; i < 10; i++) {
-			
 			System.out.println(i);
-			
 		}
 		// i = 100, j = 200 <== 초기값,	i < 1000 <== 조건,	증감식: i++, j++ <== 실행 구문 작동 후 증감식 작동
 		for (int i = 100, j = 200; i < 1000; i++, j++) {
@@ -37,7 +35,7 @@ public class For_Statement {
 		// for문을 사용해서 0 ~ 1000 사이에서 3의 배수만 출력
 		for (int a=0; a<=1000; a+=3) {
 			if (a != 0) {
-			System.out.print(a + " ");
+				System.out.print(a + " ");
 			}
 		}
 		
