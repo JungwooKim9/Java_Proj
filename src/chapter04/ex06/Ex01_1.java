@@ -72,6 +72,22 @@ public class Ex01_1 {
 				
 			}else if (a==4) {
 				System.out.println("4. 입력 받은 정수 만큼 성적을 입력 받아서 총점과 평균을 출력하는 프로그램");
+				System.out.println("몇개의 성적을 작성할지 정수로 입력하세요 >>");
+				int b, c, sum = 0, count = 0;
+					// b: 과목의 성적의 갯수: 3(국어,영어,수학)
+					// c: 점수를 담을 변수: for문을 사용해서 스캐너로 인풋 받는 변수
+					// sum: 인풋 받은 점수를 합하는 변수
+					// count: 과목의 갯수	== b
+				b = sc.nextInt();
+				System.out.println("각 과목의 점수를 공백을 사용해서 입력한 갯수 만큼 넣어주세요 >>");
+				for (int i=1; i<=b; i++) {
+					c = sc.nextInt();
+					sum += c;		// sum = sum + c
+					count++;
+				}
+				double avg = (double) sum / count;
+				System.out.printf("입력한 과목 수는 %d이고, 합계는 %d이고, 평균은 %5.2f점 입니다.", count, sum, avg);
+				System.out.println();
 				
 			}else if (a==5 ) {
 				System.out.println("5. 프로그램 종료");
