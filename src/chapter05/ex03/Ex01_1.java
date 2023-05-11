@@ -96,7 +96,38 @@ public class Ex01_1 {
 			
 		}else if (n == 3) {
 			System.out.println("3. 인풋 값을 받아서 방의 크기를 지정하고 3의 배수만 저장하는데 그 중 6의 배수인 경우 빼고 저장 후 출력");
+			System.out.println("배열 방의 크기를 정수값으로 입력해주세요 >>");
+			idx = sc.nextInt();
+			int i = 0;		// 배열의 방 번호
+			int a;			// 배열 방에 들어가는 값
+			arr1 = new int[idx];
 			
+			// 배열 (arr1)에 값을 insert
+			for (a=1; true; a++) {
+				if (a%3 == 0) {			// 3의 배수일 때(true)
+					if (a%6 != 0) {		// 6의 배수가 아닐 때(true)
+						arr1[i] = a;
+						i++;
+					}		
+				}
+				if (i == idx) {break;}
+			}
+			
+			// For문으로 출력
+			for(i=0; i<arr1.length; i++) {
+				System.out.print(arr1[i] + " ");
+			}
+			System.out.print("\n \n");
+			
+			// Enhanced For문으로 출력
+			for(int k : arr1) {
+				System.out.print(k + " ");
+			}			
+			System.out.print("\n \n");
+			
+			// Arrays.toString()으로 출력
+			System.out.print(Arrays.toString(arr1));
+			System.out.print("\n \n");
 			
 		}else if (n == 4) {
 			System.out.println("4. 프로그램 종료");
