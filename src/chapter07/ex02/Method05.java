@@ -12,6 +12,11 @@ class MethodOverloading{
 		System.out.println("int: " + a);
 	}
 	
+	// 오류 발생: 리턴 타입은 시그니쳐가 아니다
+/*	int print (int k, int l) {
+		return k;
+	}
+*/	
 	// 인풋 매개변수 1개: 
 	void print(double a) {
 		System.out.println("double: " + a);
