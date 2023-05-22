@@ -44,7 +44,6 @@ public class Method_Overriding02 {
 		
 		Animal a4 = new Lion();
 		a4.cry();
-
 	}
 
 }
