@@ -29,15 +29,15 @@ public class Ex02 {
 	}
 	
 	void avgMaxSpeed (Car[] arr) {
-		int avg = 0;
+		double avg = 0;
 		int sum = 0;
 		for(int i=0; i<arr.length; i++) {
 			if (arr[i] instanceof Hcar) {
 				sum += ((Hcar)arr[i]).maxSpeed;
-				avg = sum / arr.length;
+				avg = (double) (sum / arr.length);
 			}
 		}
-		System.out.println("현대 자동차의 배열에 저장된 최대 스피드의 평균은 " + avg + "km입니다.");
+		System.out.printf("현대 자동차의 배열에 저장된 최대 스피드의 평균은 %.2fkm입니다.\n", avg);
 	}
 	
 	int sumOil (Car[] arr) {
