@@ -9,12 +9,12 @@ public class Strawberry implements Fluit {
 
 	@Override
 	public void eat() {
-		System.out.println("딸기는 새콤달콤하다.");
+		System.out.println("딸기를 먹습니다.");
 	}
 
 	@Override
 	public void color() {
-		System.out.println("딸기는 빨갛다.");
+		System.out.println("빨간색");
 	}
 
 }

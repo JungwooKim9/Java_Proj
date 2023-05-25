@@ -9,12 +9,12 @@ public class Apple implements Fluit {
 
 	@Override
 	public void eat() {
-		System.out.println("사과는 아삭아삭하다.");
+		System.out.println("사과를 먹습니다.");
 	}
 
 	@Override
 	public void color() {
-		System.out.println("사과는 빨갛다.");
+		System.out.println("빨간색");
 	}
 
 }

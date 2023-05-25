@@ -9,12 +9,12 @@ public class Banana implements Fluit {
 
 	@Override
 	public void eat() {
-		System.out.println("바나나는 달콤하다");
+		System.out.println("바나나를 먹습니다.");
 	}
 
 	@Override
 	public void color() {
-		System.out.println("바나나는 노랗다.");
+		System.out.println("노란색");
 	}
 	
 }
