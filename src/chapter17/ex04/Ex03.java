@@ -53,7 +53,7 @@ class MemberMethod {
 	// 메소드를 정의: Member 객체를 인풋으로 던지면 set에 저장
 	public void addMember(Member member) {
 		// 코드
-		this.memSet.add(member);
+		memSet.add(member);
 		
 	}
 	
@@ -120,7 +120,7 @@ public class Ex03 {
 		mm.addMember(m5);
 		
 		// Set에 저장된 총 갯수
-		mm.showSize();
+		mm.showSize();	// 4
 		
 		System.out.println("====================");
 		
@@ -134,6 +134,7 @@ public class Ex03 {
 		
 		// 삭제 확인
 		mm.showMember();
+		mm.showSize();	// 3
 
 	}
 
